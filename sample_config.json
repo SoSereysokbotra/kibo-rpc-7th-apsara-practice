@@ -1,0 +1,27 @@
+{
+  "project_name": "kibo-practice-repo",
+  "version": "1.0.0",
+  "author": "Team Apsara",
+  "environment": {
+    "sim_mode": "mock",
+    "debug_logging": true,
+    "max_steps": 100
+  },
+  "mock_thresholds": {
+    "target_distance_tolerance_m": 0.10,
+    "max_acceptable_tilt_deg": 10.0,
+    "hold_duration_sec": 1.0
+  },
+  "team_members": [
+    {
+      "name": "Teammate 1",
+      "role": "Software",
+      "git_ready": false
+    },
+    {
+      "name": "Teammate 2",
+      "role": "Testing",
+      "git_ready": false
+    }
+  ]
+}
